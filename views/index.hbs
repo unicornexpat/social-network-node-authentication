@@ -1,0 +1,33 @@
+<head>
+	<title>{{title}} Node Authentication</title>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+	<style>
+		body 		{ padding-top:80px; }
+	</style>
+</head>
+<body>
+<div class="container">
+
+	<div class="jumbotron text-center">
+		<h1><span class="fa fa-lock"></span> Node Authentication {{email}}</h1>
+
+		<p>Login or Register with:</p>
+
+		<a href="/users/login" class="btn btn-default"><span class="fa fa-user"></span> Local Login</a>
+		<a href="/users/signup" class="btn btn-default"><span class="fa fa-user"></span> Local Signup</a>
+		<a href="/users/auth/facebook" class="btn btn-primary"><span class="fa fa-facebook"></span> Facebook</a>
+		<a href="/users/auth/twitter" class="btn btn-info"><span class="fa fa-twitter"></span> Twitter</a>
+		<a href="/users/auth/google" class="btn btn-danger"><span class="fa fa-google-plus"></span> Google+</a>
+		<a href="/users/auth/spotify" class="btn btn-success"><span class="fa fa-spotify"></span> Spotify</a>
+		<a href="/users/auth/deezer" class="btn btn-warning"><span class="fa fa-deezer"></span> Deezer</a>
+	</div>
+	
+	<div class="jumbotron text-center">
+		<h1><span class="fa fa-lock"></span>Other options {{email}}</h1>
+		<a href="/users/profile" class="btn btn-default"><span class="fa fa-user"></span>User Profile</a>
+	</div>
+
+
+</div>
+</body>
